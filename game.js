@@ -50,7 +50,7 @@ function gameLoop() {
 function init() {
   // 自キャラ（もも）の設定
   characterImage = new Image();
-  characterImage.src = "./images/momo.png";
+  characterImage.src = "./images/peach.png";
   characterPositionX = 100; // X座標を指定
   characterPositionY = 400; // Y座標を指定
   characterR = 16; // 当たり判定用の円の半径を指定
@@ -58,7 +58,7 @@ function init() {
 
   // 敵（包丁）の設定
   enemyImage = new Image();
-  enemyImage.src = "./images/hocho.png";
+  enemyImage.src = "./images/knife.png";
   enemyPositionX = canvas.width + 120; // X座標を指定。右から左に移動なので初期値は右の画面外
   enemyPositionY = 400; // Y座標を指定
   enemyR = 16; // 当たり判定用の円の半径を指定
